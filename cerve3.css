@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #292929;
+    font-family: sans-serif;
+    flex: 1;
+    }
+
+    
+.container-menu{
+    color: white;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: orange;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-menu img {
+    margin-left: -140px;
+    margin-bottom: 0px;
+}
+
+.container-boas {
+    color: black;
+    position:absolute;
+    top: 40%;
+    text-align: center;
+    background-color: orange;
+    width: 100vh;
+    height: 10vh;
+    border-radius: 15px;
+}
+
+.container-boas buton{
+    color: black;
+    background-color: orange;
+    text-align: center;
+    border-color: white;
+    border-radius: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    cursor: pointer;
+    font-size: 15px;
+    justify-content: center;
+}
+
+
+.container-boas buton:hover{
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-color: orange;
+    border-radius: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    cursor: pointer;
+    font-size: 15px;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* .containerihbi {
+    background-color:rgb(75, 75, 75);
+    border-radius: 9px 11px #0000003d;
+    border-radius: 50px;
+    width: 50%;
+    height: 50%; */
+
+/* display: flex; deixa nosso elemento flexivel */
+/* flex-direction: column; alinha os itens um abaixo do outro */
+/* align-items: center; centraliza no meio conforme a largura */
+/*justify-content: center; /* centraliza no meio conforme a altura */
+/* } */
